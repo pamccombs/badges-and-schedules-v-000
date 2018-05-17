@@ -9,7 +9,7 @@ end
 
 def assign_rooms(name)
   room = [1..7]
-  name.collect{|list| "Hello, #{list}!"}
+  name.collect{|list|}
   
   
 end
