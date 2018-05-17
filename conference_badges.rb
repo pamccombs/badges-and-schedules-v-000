@@ -8,5 +8,5 @@ def batch_badge_creator(name)
 end
 
 def assign_rooms(name)
-  name.each_with_index{|msg| "#{p"
+  name.each_with_index{|msg| "#{msg"
 end
