@@ -10,3 +10,7 @@ end
 def assign_rooms(name)
   name.each_with_index.collect{|student, index| "Hello, #{student}! You'll be assigned to room #{index + 1}!"}
 end
+
+def printer
+  puts assign_rooms
+end
