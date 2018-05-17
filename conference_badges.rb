@@ -4,6 +4,6 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(name)
-  name.collect{|list| "Hello my name is #{list}"}
+  name.collect{|list| "Hello my name is #{list}."}
   
 end
