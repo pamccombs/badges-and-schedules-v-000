@@ -13,4 +13,5 @@ end
 
 def printer(name)
  batch_badge_creator(name).each{|x| puts x}
+ 
 end
