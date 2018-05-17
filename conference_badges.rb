@@ -8,5 +8,5 @@ def batch_badge_creator(name)
 end
 
 def assign_rooms(name)
-  name.collect {
+  name.collect{|msg|
 end
