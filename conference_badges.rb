@@ -9,6 +9,6 @@ end
 
 def assign_rooms(name)
   room = [1..7]
-  name.each_with_index{ |name, index| 
+  name.each_with_index{ |name, index| "Hello, #{name}! You'll be assigned to room #{room}!"
   
 end
