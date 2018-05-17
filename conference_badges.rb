@@ -10,6 +10,6 @@ end
 def assign_rooms(name)
   room = [1..7]
   name.collect{|list|}
-  
+  room.each
   
 end
