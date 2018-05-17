@@ -8,5 +8,5 @@ def batch_badge_creator(name)
 end
 
 def assign_rooms(name)
-  name.collect{|student, index| "Hello, #{student}! You'll be assigned to room #{index}!"}
+  name.collect_with_index{|student, index| "Hello, #{student}! You'll be assigned to room #{index}!"}
 end
