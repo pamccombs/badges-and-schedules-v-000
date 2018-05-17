@@ -11,6 +11,6 @@ def assign_rooms(name)
   name.each_with_index.collect{|student, index| "Hello, #{student}! You'll be assigned to room #{index + 1}!"}
 end
 
-def printer
+def printer(attendees)
   assign_rooms.each{badge}
 end
